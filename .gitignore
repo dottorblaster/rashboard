@@ -26,3 +26,7 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# SCSS
+.sass-cache
+/public/stylesheets/*.css
