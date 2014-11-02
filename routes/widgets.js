@@ -24,8 +24,8 @@ router.get('/:name', function(req, res) {
 	  	return;
 	}
 
-	var widget = require('./widgets/' + widget_name + '/view');
-	widget.content(req, res);
+	var widget = require('./widgets/' + widget_name + '/view.js');
+	widget.content(req, res); // ? lol
 });
 
 module.exports = router;
